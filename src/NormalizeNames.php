@@ -27,7 +27,8 @@ try {
         }
     }
 } catch (Bitrix24APIException $e) {
-    printf('Error (%d): %s' . PHP_EOL, $e->getCode(), $e->getMessage());
+    printf('Error (%d): %s\n', $e->getCode(), $e->getMessage());
+    exit(1);
 }
 
 // Check contacts

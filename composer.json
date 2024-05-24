@@ -1,0 +1,21 @@
+{
+    "name": "kikyt/normalize_names",
+    "description": "Normalize contacts names in Bitrix24",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kikyt\\NormalizeNames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniil Arkhangelsky",
+            "email": "kiky.tokamuro@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "andrey-tech/bitrix24-api-php": "1.6"
+    }
+}
